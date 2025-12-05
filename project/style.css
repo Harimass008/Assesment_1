@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+li{
+    list-style-type: none;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 60px;
+    position: sticky;
+    top: 0;
+}
+
+
+.navbar .logo img{
+    font-size: 5px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 5px none;
+    background-color: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    padding: 20px;
+}
+
+.content  .inform h1{
+    font-size: 56px;
+    width: 600px;
+    text-align: center;
+    margin-top:60px;
+}
+
+.content .inform p{
+    width: 300px;
+    font-size: 18px;
+    text-align: center;
+    margin-top:15px;
+    margin-left: 125px;
+}
+
+.content .btn button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: green;
+    border: none;
+}
+
+
+.content .btn button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.content .image {
+    display: flex;
+    padding: 40px 250px;
+     position: relative;
+}
+
+.content .image img{
+    height: 450px;
+    width: 450px;
+}
+
+.content .image .pic_1{
+    padding: 100px 0;
+    position: relative;
+}
+
+.content .image .pic_2{
+    position: relative;
+}
+
+
+.client{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client h1{
+    font-size: 36px;
+}
